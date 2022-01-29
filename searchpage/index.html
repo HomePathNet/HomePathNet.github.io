@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="searchOutput">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"> <img src="../logo.jpg" id="logo" class="img-thumbnail">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Home</a>
+                          </li> 
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Homestay Review</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSec5nZGgCTc_CZRQ9eW6XwwZnvcqtCsngss4kkT2OXQeW8v3A/viewform">Student Survey</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <hr>
+        </div>
+        <div id="section-a" class="container-fluid">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input id="search-query" class="form-control me-2" type="text" placeholder="Search" aria-label="Search">
+                    <button id="search-button" class="btn btn-outline-success" type="button">Search</button>
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <hr>
+        <!-- <div id="section-b" class="container-fluid">
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Union City</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Fremont</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Hayward</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">San Jose</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Oakland</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">San Francisco</label>
+              </div>
+        </div> -->
+        <div id="section-c" class="container-fluid row"> </div>
+        <section id = "specifchomestay" style="display: none;">
+          <div id="homestayoverview" class="container-fluid">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h2 class="card-title" id="homestayName"></h2>
+                    <div id="X">
+                      <button type="button" class="btn-close" aria-label="Close" data-close>
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                      </div>
+                    <!--<p class="card-text">Overall rate: <span id="overall-rate">★★★★★</span></p> -->
+                    <p class="card-text">Zip code: <span id="zipCode"></span></p>
+                    <p class="card-text">Ethnic origin: <span id="ethnicity"></span></p>
+                    <!--<p class="card-text">Total reviews: <span id="total"></span></p> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div id="review1" class="container-fluid review"> 
+            <h5></h5>
+            <div class="row">
+            <div class="info col-sm-6" >
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">Safety: <span id="safety-rate"></span></li>
+                <li class="list-group-item">Communication with the homestay: <span id="communication-rate"></span></li>
+                <li class="list-group-item">Amenity(Wi-Fi Speed, Laundry etc): <span id="amenity-rate"></span></li>
+                <li class="list-group-item">Comfort: <span id="comfort-rate"></span></li>
+                <li class="list-group-item">Food: <span id="food-rate"></span></li>
+                <li class="list-group-item">Responsibility: <span id="responsibility-rate"></span></li>
+                <li class="list-group-item">Culture: <span id="culture-rate"></span></li>
+                <li class="list-group-item">Cleanness: <span id="cleanness-rate"></span></li>
+              </ul>
+            </div>
+            <div class="info col-sm-6">
+              <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">Student's Comment: <span id="comment"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+          </div>
+        </section>
+        <script src = "script.js"></script>
+    </body>
