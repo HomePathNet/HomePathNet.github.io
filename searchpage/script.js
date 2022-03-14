@@ -205,6 +205,7 @@ function card1Button(e) {
     document.getElementById("zipCode").innerHTML = currentHomestay.zipCode.toString();
     document.getElementById("ethnicity").innerHTML = currentHomestay.ethnicity.toString();
     document.getElementById("comment").innerHTML = currentHomestay.comment.toString();
+    document.getElementById("studentName").innerHTML = currentHomestay.studentName.toString();
 } 
 
 function addButtonEventListener () {
