@@ -141,7 +141,7 @@ var listOfHomestays = [
         "studentName": "Johnny",
         "homestayName": "Ms.Basa",
         "zipCode": 94544,
-        "comment": "My host family can be said to be very perfect, everything for me.It makes me feel like home",
+        "comment": "My host family can be said to be very perfe, everything for me.It makes me feel like home",
     },
 ];
 
