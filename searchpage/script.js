@@ -141,7 +141,24 @@ var listOfHomestays = [
         "studentName": "Johnny",
         "homestayName": "Ms.Basa",
         "zipCode": 94544,
-        "comment": "My host family can be said to be very perfe, everything for me.It makes me feel like home",
+        "comment": "My host family can be said to be very perfect, everything for me.It makes me feel like home",
+    },
+
+    {
+        "id": "3",
+        "ethnicity": "Asian",
+        "safety": 5,
+        "communication": 5,
+        "amenity": 3,
+        "comfort": 4,
+        "food": 5,
+        "responsibility": 5,
+        "culture": 4,
+        "cleanness": 5,
+        "studentName": "Steven",
+        "homestayName": "Ms.Fanny",
+        "zipCode": 94544,
+        "comment": "My homestay is a Chinese women, so I never worried about the food and the communication. The rule is we need to clean the bedroom and bathroom every week. Most time we are not allowed to go out, but only during the weekend after we respond to her. Overall, my homestay is a very nice one, we have three boys here.",
     },
 ];
 
