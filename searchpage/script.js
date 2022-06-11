@@ -145,7 +145,7 @@ var listOfHomestays = [
     },
 
     {
-        "id": "3",
+        "id": "9",
         "ethnicity": "Asian",
         "safety": 5,
         "communication": 5,
