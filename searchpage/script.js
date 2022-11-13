@@ -160,6 +160,23 @@ var listOfHomestays = [
         "zipCode": 94544,
         "comment": "My homestay is Chinese, so I never worried about the food and the communication. The rule is we need to clean the bedroom and bathroom every week. Most time we are not allowed to go out, but only during the weekend after we respond to her. Overall, my homestay is a very nice one, we have three boys here.",
     },
+
+    {
+        "id": "10",
+        "ethnicity": "Asian",
+        "safety": 4,
+        "communication": 3,
+        "amenity": 3,
+        "comfort": 4,
+        "food": 2,
+        "responsibility": 5,
+        "culture": 4,
+        "cleanness": 4,
+        "studentName": "Steven",
+        "homestayName": "Ms.Fanny",
+        "zipCode": 94544,
+        "comment": "I have lived in this homestay for one year, except for the WiFi speed, the rest is not bad. If I can give some advice to the future international students, I think it may be “timely communicating with the homestay and negotiate to solve them ASAP when you meet any  problems.",
+    },
 ];
 
 function showHomestays(ListData) {
