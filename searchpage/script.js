@@ -158,7 +158,7 @@ var listOfHomestays = [
         "studentName": "Steven",
         "homestayName": "Ms.Fanny",
         "zipCode": 94544,
-        "comment": "My homestay is a Chinese women, so I never worried about the food and the communication. The rule is we need to clean the bedroom and bathroom every week. Most time we are not allowed to go out, but only during the weekend after we respond to her. Overall, my homestay is a very nice one, we have three boys here.",
+        "comment": "My homestay is Chinese, so I never worried about the food and the communication. The rule is we need to clean the bedroom and bathroom every week. Most time we are not allowed to go out, but only during the weekend after we respond to her. Overall, my homestay is a very nice one, we have three boys here.",
     },
 ];
 
